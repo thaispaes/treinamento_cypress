@@ -9,7 +9,7 @@
   "author": "Thais Paes",
   "license": "ISC",
   "cypress-cucumber-preprocessor": {
-      "nonGlobalDefinitions": false,
+      "nonGlobalStepDefinitions": false,
       "stepDefinitions": "cypress/support/"
   },
   "devDependencies": {
