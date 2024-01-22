@@ -7,7 +7,8 @@ module.exports = defineConfig({
     watchForFileChanges: false,  //Toda vez que editar um arquivo e salvar, o cypress não reexecuta o teste
 
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      const cucumber = require("cypress-cucumber-preprocessor").default()
+      on('file:preprocessor', cucumber())
     },
   },
 });

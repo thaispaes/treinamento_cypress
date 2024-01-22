@@ -8,7 +8,12 @@
   },
   "author": "Thais Paes",
   "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+      "nonGlobalDefinitions": false,
+      "stepDefinitions": "cypress/support/"
+  },
   "devDependencies": {
-    "cypress": "^13.6.3"
+    "cypress": "^13.6.3",
+    "cypress-cucumber-preprocessor": "^4.3.1"
   }
 }
