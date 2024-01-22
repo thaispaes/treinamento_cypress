@@ -1,0 +1,14 @@
+{
+  "name": "treinamento_cypress",
+  "version": "1.0.0",
+  "description": "Path of cypress for the course ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Thais Paes",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.3"
+  }
+}
